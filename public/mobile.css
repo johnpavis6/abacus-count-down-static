@@ -1,0 +1,41 @@
+@media screen and (orientation:portrait) {
+    #main {
+        width: 100%;
+        height: 50%;
+    }
+    #logo {
+        width: 60%;
+        /* height: 50%; */
+        margin-top: 10%;
+    }
+    #circles {
+        top: 20%;
+        height: 60%;
+        width: 95%;
+    }
+    #clouds {
+        width: 95%;
+    }
+    #links {
+        flex-direction: row;
+        font-size: 25px;
+        border-top: #551A8B 1px solid;
+        border-left: #551A8B 1px solid;
+        border-right: #551A8B 1px solid;
+        height: 10%;
+        width: 99%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 25px;
+        margin: 0 auto;
+        margin-top: auto;
+    }
+}
+
+@media screen and (orientation:landscape) and (max-width:720px) {
+    #links {
+        height: 90%;
+    }
+    #links a {
+        font-size: 25px;
+    }
+}
